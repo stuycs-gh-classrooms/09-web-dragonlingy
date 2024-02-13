@@ -14,19 +14,23 @@ h1{
   color: azure
 }
 
-h6 {
+h4 {
   font-family: Times;
   text-align: center;
   font-size: 40px;
   color: azure
 }
 
-ol{
+li {
   color: silver;
   text-align: center;
   font-size: 16px;
   font-weight: normal;
   font-family: Times;
+}
+
+a{
+  color: lightgray
 }
 
 html {
