@@ -3,14 +3,20 @@ p {
   text-align: center;
   font-size: 16px;
   font-weight: normal;
+  font-family: Times;
 }
 
+
 h1{
-  font-family: cursive;
+  font-family: Times;
+  text-align: center;
+  font-size: 100px
 }
 
 h6 {
-  font-family: cursive;
+  font-family: Times;
+  text-align: center;
+  font-size: 40px
 }
 
 html {
@@ -18,7 +24,8 @@ html {
 }
 
 img {
-  width: 50%;
-  height: 50%;
+  width: 25%;
+  height: 25%;
   border: solid 1px aliceblue;
+  text-align: center;
 }
