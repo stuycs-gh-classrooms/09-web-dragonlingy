@@ -10,24 +10,26 @@ p {
 h1{
   font-family: Times;
   text-align: center;
-  font-size: 100px;
+  font-size: 75px;
   color: azure
 }
 
 h4 {
   font-family: Times;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   color: azure
 }
 
 li {
   color: silver;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
   font-family: Times;
 }
+
+ol{text-align: center;}
 
 a{
   color: lightgray
