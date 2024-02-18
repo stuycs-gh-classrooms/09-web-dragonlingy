@@ -74,6 +74,7 @@ nav {
 
 .leftimg {
   float: left;
+  display: block;
   width: 1em;
   height: 1em;
 
