@@ -1,11 +1,11 @@
 h1 {
   font-size: 50%width;
   text-align: center;
-}
-
-h1 span {
+  display: table;
+  margin: 0px auto;
+  padding: 5px;
+  font-size: 20px;
   background-color: cornsilk;
-  border-radius: 20px;
 }
 
 html{
@@ -45,6 +45,7 @@ nav {
   display: inline;
   padding: 10px;
   background-color: burlywood;
+  color: 
 }
 
 .menulist{
