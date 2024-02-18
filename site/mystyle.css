@@ -21,10 +21,7 @@ html{
   background-color: burlywood;
   font-family: monospace;
 }
-.only {
-  display: block;
-  font-size: 15px;
-}
+
 .content{
   background-color: cornsilk;
   margin: auto;
