@@ -27,6 +27,10 @@ ul {
   text-align: center;
   font-size: 15%width;
   display: inline-block;
+  margin: 0;
+  padding: 16px;
+  overflow: hidden;
+  text-decoration: none;
 }
 
 .content {
