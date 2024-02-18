@@ -92,7 +92,7 @@ p {
   font-family: monospace;
 }
 #firstfive{
-  display:block;
+  display: inline-block;
 }
 .lover {
   text-align: center;
@@ -114,7 +114,7 @@ p {
   background-color: yellow;
   border-radius: 20px;
 }
-.reputation {
+.rep {
   text-align: center;
   width: 20%body;
   height:20%body;
