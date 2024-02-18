@@ -23,6 +23,7 @@ html{
 }
 .only {
   display: block;
+  font-size: 15px;
 }
 .content{
   background-color: cornsilk;
@@ -80,7 +81,7 @@ nav {
 }
 p {
   background-color: cornsilk;
-  font-size: 30px;
+  font-size: 15px;
   font-family: monospace;
 }
 
