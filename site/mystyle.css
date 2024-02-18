@@ -3,8 +3,9 @@
 }
 
 h1 {
+    text-align: center;
     display: inline-flex;
-    padding: 5px;
+    padding: 10px;
     font-size: 50%width;
     background-color: cornsilk;
     border-radius: 20px;
@@ -47,7 +48,8 @@ nav {
   display: inline;
   padding: 10px;
   background-color: burlywood;
-  color:
+  color: black;
+  text-align: center;
 }
 
 .menulist{
