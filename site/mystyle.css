@@ -24,6 +24,8 @@ ul {
 .menu {
   background-color: burlywood;
   text-align: center;
-  display: inline;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   font-size: 15%width;
 }
