@@ -28,14 +28,19 @@ ul {
 nav {
   background-color: burlywood;
   text-align: center;
-  font-size: 15%width;
+  font-size: 1.5em;
   display: inline-block;
   margin: auto;
-  padding: 16px;
-  overflow: hidden;
-  text-decoration: none;
 }
 
+.menu{
+  display: inline;
+  padding: 10px
+}
+
+.menulist{
+  padding: 0;
+}
 
 p {
   background-color: cornsilk;
