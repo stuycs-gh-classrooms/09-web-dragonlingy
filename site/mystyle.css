@@ -91,9 +91,7 @@ p {
   font-size: 15px;
   font-family: monospace;
 }
-#firstfive{
-  display: block;
-}
+
 .lover {
   text-align: center;
   width: 20%body;
@@ -103,7 +101,6 @@ p {
   border: auto;
   background-color: pink;
   border-radius: 20px;
-  display: block;
 }
 .fearless {
   text-align: center;
@@ -114,7 +111,6 @@ p {
   border: auto;
   background-color: yellow;
   border-radius: 20px;
-
 }
 .rep {
   text-align: center;
