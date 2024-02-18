@@ -46,6 +46,9 @@ ul {
 
 }
 
+.lyrics {
+  text-align: center;
+}
 nav {
   background-color: burlywood;
   text-align: center;
