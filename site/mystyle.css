@@ -2,6 +2,7 @@ h1 {
   font-size: 50%width;
   text-align: center;
   background-color: cornsilk;
+  border-radius: 20px;
 }
 
 html{
@@ -30,7 +31,7 @@ ul {
 }
 
 nav {
-  background-color: tan;
+  background-color: burlywood;
   text-align: center;
   font-size: 1.5em;
   display: inline-block;
@@ -40,11 +41,14 @@ nav {
 .menu{
   display: inline;
   padding: 10px;
-  background-color: tan;
+  background-color: burlywood;
 }
 
 .menulist{
   padding: 0;
+}
+.menuback{
+  background-color: burlywood;
 }
 
 p {
