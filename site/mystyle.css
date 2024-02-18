@@ -84,6 +84,7 @@ p {
   background-color: cornsilk;
   font-size: 15px;
   font-family: monospace;
+  overflow: auto;
 }
 
 ul {
