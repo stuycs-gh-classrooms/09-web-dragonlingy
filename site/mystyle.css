@@ -17,6 +17,9 @@ h2{
   font-family: monospace;
 }
 
+h3{
+  text-align: center;
+}
 html{
   background-color: burlywood;
   font-family: monospace;
@@ -49,6 +52,7 @@ ul {
 .lyrics {
   text-align: center;
 }
+
 nav {
   background-color: burlywood;
   text-align: center;
@@ -86,4 +90,58 @@ p {
   background-color: cornsilk;
   font-size: 15px;
   font-family: monospace;
+}
+#firstfive{
+  display:block;
+}
+.lover {
+  text-align: center;
+  width: 20%body;
+  height:20%body;
+  padding: auto;
+  margin: auto;
+  border: auto;
+  background-color: pink;
+  border-radius: 20px;
+}
+.fearless {
+  text-align: center;
+  width: 20%body;
+  height:20%body;
+  padding: auto;
+  margin: auto;
+  border: auto;
+  background-color: yellow;
+  border-radius: 20px;
+}
+.reputation {
+  text-align: center;
+  width: 20%body;
+  height:20%body;
+  padding: auto;
+  margin: auto;
+  border: auto;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+.evermore{
+  text-align: center;
+  width: 20%body;
+  height:20%body;
+  padding: auto;
+  margin: auto;
+  border: auto;
+  background-color: brown;
+  border-radius: 20px;
+}
+.speaknow{
+    text-align: center;
+    width: 20%body;
+    height:20%body;
+    padding: auto;
+    margin: auto;
+    border: auto;
+    background-color: purple;
+    border-radius: 20px;
 }
