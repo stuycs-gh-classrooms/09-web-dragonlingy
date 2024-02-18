@@ -14,9 +14,13 @@ h1 {
 html{
   background-color: burlywood;
 }
+.only {
+  display: block;
+}
 .content{
   background-color: cornsilk;
   margin: auto;
+  padding: 10px;
   border-radius: 20px;
 }
 
@@ -24,7 +28,7 @@ html{
   background-color: cornsilk;
   padding: 16px;
   display: inline;
-  margin: 10px;
+  margin: auto;
   border: auto;
   border-radius: 20px;
 }
