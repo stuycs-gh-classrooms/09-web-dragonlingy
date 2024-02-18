@@ -1,9 +1,8 @@
 h1 {
-  font-size: 50%width;
-  text-align: center;
   display: table;
   margin: 0px auto 0px auto;
   padding: 5px;
+  font-size: 50%width;
   background-color: cornsilk;
 }
 
