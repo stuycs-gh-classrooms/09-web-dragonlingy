@@ -15,9 +15,9 @@ body{
 
 .current {
   background-color: cornsilk;
-  padding: 10px;
+  padding: 16px;
   display: inline;
-  padding: 10px;
+  margin: 0;
 }
 
 ul {
@@ -27,7 +27,7 @@ ul {
 }
 
 nav {
-  background-color: lightgray;
+  background-color: black;
   text-align: center;
   font-size: 1.5em;
   display: inline-block;
@@ -37,7 +37,7 @@ nav {
 .menu{
   display: inline;
   padding: 10px;
-  background-color: lightgray;
+  background-color: black;
 }
 
 .menulist{
