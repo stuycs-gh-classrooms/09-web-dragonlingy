@@ -24,8 +24,13 @@ ul {
 .menu {
   background-color: burlywood;
   text-align: center;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
   font-size: 15%width;
+}
+
+p {
+  background-color: cornsilk;
+}
+
+ul {
+    background-color: cornsilk;
 }
