@@ -9,11 +9,14 @@ html{
 }
 body{
   text-align: center;
+  background-color: cornsilk;
+  margin: auto;
 }
 
 .current {
   background-color: cornsilk;
   text-align: center;
+  padding: 16px;
 }
 
 ul {
@@ -22,20 +25,18 @@ ul {
   list-style-type: none;
 }
 
-.menu {
+nav {
   background-color: burlywood;
   text-align: center;
   font-size: 15%width;
   display: inline-block;
-  margin: 0;
+  margin: auto;
   padding: 16px;
   overflow: hidden;
   text-decoration: none;
 }
 
-.content {
-  background-color: cornsilk;
-}
+
 p {
   background-color: cornsilk;
 }
