@@ -9,6 +9,7 @@ html{
 }
 body{
   text-align: center;
+  background-color: cornsilk;
 }
 
 .current {
@@ -19,6 +20,7 @@ body{
 ul {
   background-color: cornsilk;
   text-align: center;
+  list-style-type: none;
 }
 
 .menu {
