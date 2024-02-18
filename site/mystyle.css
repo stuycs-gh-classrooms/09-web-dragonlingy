@@ -9,7 +9,7 @@ html{
 }
 body{
   text-align: center;
-  background-color: cornsilk;
+  background-color: burlywood;
 }
 
 .current {
@@ -30,6 +30,9 @@ ul {
   display: inline-block;
 }
 
+.content {
+  background-color: cornsilk;
+}
 p {
   background-color: cornsilk;
 }
