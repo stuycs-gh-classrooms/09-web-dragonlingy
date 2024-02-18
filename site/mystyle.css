@@ -43,9 +43,7 @@ html{
 
 ul {
   background-color: cornsilk;
-  text-align: center;
-  list-style-type: none;
-  font-family: monospace;
+
 }
 
 nav {
@@ -67,6 +65,9 @@ nav {
 
 .menulist{
   padding: 0;
+  text-align: center;
+  list-style-type: none;
+  font-family: monospace;
 }
 .menuback{
   background-color: burlywood;
@@ -82,8 +83,4 @@ p {
   background-color: cornsilk;
   font-size: 15px;
   font-family: monospace;
-}
-
-ul {
-    background-color: cornsilk;
 }
