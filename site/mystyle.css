@@ -103,6 +103,7 @@ p {
   border: auto;
   background-color: pink;
   border-radius: 20px;
+  display: inline-block;
 }
 .fearless {
   text-align: center;
@@ -113,6 +114,7 @@ p {
   border: auto;
   background-color: yellow;
   border-radius: 20px;
+  display: inline-block;
 }
 .rep {
   text-align: center;
@@ -124,6 +126,7 @@ p {
   background-color: black;
   color: white;
   border-radius: 20px;
+  display: inline-block;
 }
 .evermore{
   text-align: center;
@@ -132,8 +135,9 @@ p {
   padding: auto;
   margin: auto;
   border: auto;
-  background-color: brown;
+  background-color: peru;
   border-radius: 20px;
+  display: inline-block;
 }
 .speaknow{
     text-align: center;
@@ -144,4 +148,5 @@ p {
     border: auto;
     background-color: purple;
     border-radius: 20px;
+    display: inline-block;
 }
