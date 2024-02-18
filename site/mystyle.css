@@ -61,7 +61,7 @@ nav {
 
 .leftimg {
   float: left;
-  
+  display: block;
 }
 p {
   background-color: cornsilk;
