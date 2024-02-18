@@ -15,7 +15,6 @@ html{
   background-color: burlywood;
 }
 .content{
-  text-align: center;
   background-color: cornsilk;
   margin: auto;
   border-radius: 20px;
@@ -60,6 +59,10 @@ nav {
   text-align: center;
 }
 
+.leftimg {
+  float: left;
+  
+}
 p {
   background-color: cornsilk;
 }
