@@ -25,6 +25,7 @@ ul {
   background-color: burlywood;
   text-align: center;
   font-size: 15%width;
+  display: inline-block;
 }
 
 p {
