@@ -5,14 +5,15 @@
 h1 {
     display: inline-flex;
     padding: 5px;
-    font-size: 20px;
+    font-size: 50%width;
     background-color: cornsilk;
+    border-radius: 20px;
 }
 
 html{
   background-color: burlywood;
 }
-body{
+.content{
   text-align: center;
   background-color: cornsilk;
   margin: auto;
