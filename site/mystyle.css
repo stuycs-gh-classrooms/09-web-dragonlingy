@@ -1,0 +1,18 @@
+h1 {
+  font-size: 25%;
+  text-align: center;
+  background-color: cornsilk;
+}
+
+html{
+  background-color: burlywood;
+}
+body{
+  background-color: cornsilk;
+  text-align: center;
+}
+
+.current {
+  background-color: cornsilk;
+  text-align: center;
+}
