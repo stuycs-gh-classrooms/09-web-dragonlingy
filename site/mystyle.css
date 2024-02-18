@@ -15,7 +15,8 @@ body{
 
 .current {
   background-color: cornsilk;
-  text-align: center;
+  padding: 10px;
+  display: inline;
   padding: 10px;
 }
 
