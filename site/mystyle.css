@@ -1,5 +1,5 @@
 h1 {
-  font-size: 25%;
+  font-size: 50%width;
   text-align: center;
   background-color: cornsilk;
 }
@@ -15,4 +15,10 @@ body{
 .current {
   background-color: cornsilk;
   text-align: center;
+}
+
+nav {
+  background-color: burlywood;
+  text-align: center;
+  display: inline;
 }
