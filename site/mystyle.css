@@ -1,6 +1,9 @@
 h1 {
   font-size: 50%width;
   text-align: center;
+}
+
+h1 span {
   background-color: cornsilk;
   border-radius: 20px;
 }
