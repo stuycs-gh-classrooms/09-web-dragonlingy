@@ -28,6 +28,7 @@ html{
   padding: 10px;
   border-radius: 20px;
   font-family: monospace;
+  font-size: 15px;
 }
 
 .current {
