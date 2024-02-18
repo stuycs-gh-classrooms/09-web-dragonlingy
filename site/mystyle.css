@@ -146,3 +146,62 @@ p {
     border-radius: 20px;
 
 }
+
+.red{
+    text-align: center;
+    width: 20%body;
+    height:20%body;
+    padding: auto;
+    margin: auto;
+    border: auto;
+    background-color: red;
+    border-radius: 20px;
+
+}
+
+.folklore{
+    text-align: center;
+    width: 20%body;
+    height:20%body;
+    padding: auto;
+    margin: auto;
+    border: auto;
+    background-color: gray;
+    color: white
+    border-radius: 20px;
+}
+
+.nine{
+    text-align: center;
+    width: 20%body;
+    height:20%body;
+    padding: auto;
+    margin: auto;
+    border: auto;
+    background-color: powderblue;
+    border-radius: 20px;
+}
+
+.acoustic{
+      text-align: center;
+      width: 20%body;
+      height:20%body;
+      padding: auto;
+      margin: auto;
+      border: auto;
+      background-color: palegreen;
+      border-radius: 20px;
+}
+
+.midnights{
+    text-align: center;
+    width: 20%body;
+    height:20%body;
+    padding: auto;
+    margin: auto;
+    border: auto;
+    background-color: midnightblue;
+    color: white;
+    border-radius: 20px;
+
+}
