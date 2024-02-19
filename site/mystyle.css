@@ -91,12 +91,12 @@ nav {
 
 .leftimg {
   float: left;
-  display: block;
+  display: inline-block;
 }
 
 .rightimg{
     float: right;
-    display: block;
+    display: inline-block;
 }
 p {
   background-color: cornsilk;
