@@ -92,11 +92,13 @@ nav {
 .leftimg {
   float: left;
   display: inline-block;
+  margin: 5px;
 }
 
 .rightimg{
-    float: right;
-    display: inline-block;
+  float: right;
+  display: inline-block;
+  margin: 5px;
 }
 p {
   background-color: cornsilk;
