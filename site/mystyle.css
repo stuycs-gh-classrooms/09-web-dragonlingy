@@ -260,10 +260,6 @@ p {
   align-items: center;
   float: left;
   background-color: cornsilk;
-  margin: auto;
-  padding: 10px;
-  border-radius: 20px;
-  font-size: 15px;
 }
 
 .rc{
@@ -271,8 +267,4 @@ p {
   align-items: center;
   float: right;
   background-color: cornsilk;
-  margin: auto;
-  padding: 10px;
-  border-radius: 20px;
-  font-size: 15px;
 }
