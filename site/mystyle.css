@@ -39,6 +39,7 @@ a{
   padding: 10px;
   border-radius: 20px;
   font-size: 15px;
+  overflow: auto;
 }
 
 .current {
@@ -256,11 +257,11 @@ p {
 }
 
 .lc{
+  width: 50%;
   float: left;
-  background-color: cornsilk;
 }
 
 .rc{
+  width: 50%;
   float: right;
-  background-color: cornsilk;
 }
