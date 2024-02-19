@@ -88,10 +88,12 @@ nav {
 
 .right{
   float: right;
+  margin: 10px;
 }
 
 .left{
   float: left;
+  margin: 10px;
 }
 
 .imgmargin {
