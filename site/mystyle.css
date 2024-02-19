@@ -256,14 +256,14 @@ p {
 }
 
 .lc{
-  width: 45%;
+  width: 50%;
   align-items: center;
   float: left;
   background-color: cornsilk;
 }
 
 .rc{
-  width: 45%;
+  width: 50%;
   align-items: center;
   float: right;
   background-color: cornsilk;
