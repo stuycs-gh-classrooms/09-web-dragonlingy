@@ -245,3 +245,7 @@ p {
 .blue{
   color: midnightblue;
 }
+
+.center{
+  align-items: center;
+}
