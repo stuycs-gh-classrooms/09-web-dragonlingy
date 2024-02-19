@@ -91,13 +91,11 @@ nav {
 
 .leftimg {
   float: left;
-  display: inline-block;
   margin: 10px;
 }
 
 .rightimg{
   float: right;
-  display: inline-block;
   margin: 10px;
 }
 p {
