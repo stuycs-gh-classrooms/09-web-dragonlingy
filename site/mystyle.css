@@ -250,3 +250,19 @@ p {
 .blue{
   color: midnightblue;
 }
+
+.center{
+  text-align: center;
+}
+
+.lc{
+  width: 50%;
+  align-items: center;
+  float: left;
+}
+
+.rc{
+  width: 50%;
+  align-items: center;
+  float: right;
+}
