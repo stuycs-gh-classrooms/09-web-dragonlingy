@@ -256,7 +256,7 @@ p {
 }
 
 .lc{
-  width: 50%;
+  width: 45%;
   align-items: center;
   float: left;
   background-color: cornsilk;
@@ -267,7 +267,7 @@ p {
 }
 
 .rc{
-  width: 50%;
+  width: 45%;
   align-items: center;
   float: right;
   background-color: cornsilk;
