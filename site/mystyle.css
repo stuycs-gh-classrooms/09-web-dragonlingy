@@ -85,7 +85,9 @@ nav {
   text-align: center;
 }
 
-
+.imgmargin {
+  margin: 10px;
+}
 .align{
   display: flex;
   align-items: center;
