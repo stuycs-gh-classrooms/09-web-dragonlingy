@@ -95,6 +95,7 @@ nav {
 .left{
   float: left;
   margin: 10px;
+  padding: 10px;
 }
 
 .imgmargin {
