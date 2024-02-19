@@ -244,3 +244,8 @@ p {
 .blue{
   color: midnightblue;
 }
+
+.align{
+  display: flex;
+      align-items:center;
+}
