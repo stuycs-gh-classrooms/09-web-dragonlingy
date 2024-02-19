@@ -85,19 +85,11 @@ nav {
   text-align: center;
 }
 
-.leftimg {
-  float: left;
-  margin: 10px;
-}
-
-.rightimg{
-  float: right;
-  margin: 10px;
-}
 
 .align{
   display: flex;
   align-items: center;
+  margin: 10px;
 }
 
 p {
