@@ -69,14 +69,11 @@ nav {
 .menu{
   display: inline;
   padding: 10px;
-  background-color: burlywood;
   color: black;
-  text-align: center;
 }
 
 .menulist{
   padding: 0;
-  text-align: center;
   list-style-type: none;
 }
 .menuback{
