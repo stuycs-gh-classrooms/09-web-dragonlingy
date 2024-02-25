@@ -9,7 +9,6 @@ h1 {
     padding: 10px;
     background-color: cornsilk;
     border-radius: 20px;
-
 }
 
 h2{
@@ -70,11 +69,13 @@ nav {
   display: inline;
   padding: 10px;
   color: black;
+  background-color: burlywood;
 }
 
 .menulist{
   padding: 0;
   list-style-type: none;
+
 }
 .menuback{
   background-color: burlywood;
