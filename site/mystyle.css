@@ -29,6 +29,7 @@ html{
   color: black;
   text-decoration: none;
 }
+
 a{
   color: lightgray
 }
@@ -112,7 +113,7 @@ p {
 .lover {
   text-align: center;
   width: 20%;
-  height:20%;
+  height: 20%;
   padding: auto;
   margin: auto;
   border: auto;
@@ -122,7 +123,7 @@ p {
 .fearless {
   text-align: center;
   width: 20%;
-  height:20%;
+  height: 20%;
   padding: auto;
   margin: auto;
   border: auto;
@@ -132,7 +133,7 @@ p {
 .rep {
   text-align: center;
   width: 20%;
-  height:20%;
+  height: 20%;
   padding: auto;
   margin: auto;
   border: auto;
@@ -144,7 +145,7 @@ p {
 .evermore{
   text-align: center;
   width: 20%;
-  height:20%;
+  height: 20%;
   padding: auto;
   margin: auto;
   border: auto;
@@ -155,7 +156,7 @@ p {
 .speaknow{
     text-align: center;
     width: 20%;
-    height:20%;
+    height: 20%;
     padding: auto;
     margin: auto;
     border: auto;
@@ -167,7 +168,7 @@ p {
 .red{
     text-align: center;
     width: 20%;
-    height:20%;
+    height: 20%;
     padding: auto;
     margin: auto;
     border: auto;
@@ -179,7 +180,7 @@ p {
 .folklore{
     text-align: center;
     width: 20%;
-    height:20%;
+    height: 20%;
     padding: auto;
     margin: auto;
     border: auto;
@@ -191,7 +192,7 @@ p {
 .nine{
     text-align: center;
     width: 20%;
-    height:20%;
+    height: 20%;
     padding: auto;
     margin: auto;
     border: auto;
@@ -202,7 +203,7 @@ p {
 .acoustic{
       text-align: center;
       width: 20%;
-      height:20%;
+      height: 20%;
       padding: auto;
       margin: auto;
       border: auto;
@@ -212,7 +213,7 @@ p {
 .midnights{
     text-align: center;
     width: 20%;
-    height:20%;
+    height: 20%;
     padding: auto;
     margin: auto;
     border: auto;
