@@ -47,7 +47,6 @@ a{
   padding: 16px;
   display: inline;
   margin: auto;
-  border: auto;
   border-radius: 20px;
 }
 
@@ -243,4 +242,8 @@ p {
 .rc{
   width: 50%;
   float: right;
+}
+
+.column {
+  height: 400px;
 }
