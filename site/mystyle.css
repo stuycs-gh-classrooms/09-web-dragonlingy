@@ -45,8 +45,6 @@ a{
 .current {
   background-color: cornsilk;
   padding: 16px;
-  display: inline;
-  margin: auto;
   border-radius: 20px;
 }
 
