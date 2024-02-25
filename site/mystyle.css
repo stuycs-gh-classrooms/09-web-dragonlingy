@@ -114,9 +114,7 @@ p {
   text-align: center;
   width: 20%;
   height: 20%;
-  padding: auto;
   margin: auto;
-  border: auto;
   background-color: pink;
 
 }
@@ -124,9 +122,7 @@ p {
   text-align: center;
   width: 20%;
   height: 20%;
-  padding: auto;
   margin: auto;
-  border: auto;
   background-color: yellow;
 
 }
@@ -134,9 +130,7 @@ p {
   text-align: center;
   width: 20%;
   height: 20%;
-  padding: auto;
   margin: auto;
-  border: auto;
   background-color: black;
   color: white;
 
@@ -146,9 +140,7 @@ p {
   text-align: center;
   width: 20%;
   height: 20%;
-  padding: auto;
   margin: auto;
-  border: auto;
   background-color: peru;
 
 
@@ -157,9 +149,7 @@ p {
     text-align: center;
     width: 20%;
     height: 20%;
-    padding: auto;
     margin: auto;
-    border: auto;
     background-color: purple;
 
 
@@ -169,9 +159,7 @@ p {
     text-align: center;
     width: 20%;
     height: 20%;
-    padding: auto;
     margin: auto;
-    border: auto;
     background-color: red;
 
 
@@ -181,9 +169,7 @@ p {
     text-align: center;
     width: 20%;
     height: 20%;
-    padding: auto;
     margin: auto;
-    border: auto;
     background-color: gray;
     color: white;
 
@@ -193,9 +179,7 @@ p {
     text-align: center;
     width: 20%;
     height: 20%;
-    padding: auto;
     margin: auto;
-    border: auto;
     background-color: powderblue;
 
 }
@@ -212,9 +196,7 @@ p {
     text-align: center;
     width: 20%;
     height: 20%;
-    padding: auto;
     margin: auto;
-    border: auto;
     background-color: midnightblue;
     color: white;
 }
