@@ -106,6 +106,7 @@ nav {
   display: flex;
   align-items: center;
   margin: 10px;
+  width: 100%;
 }
 
 p {
