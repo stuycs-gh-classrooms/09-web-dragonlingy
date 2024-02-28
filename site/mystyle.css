@@ -252,3 +252,8 @@ p {
 .column {
   height: 400px;
 }
+
+.divpad{
+  margin: auto;
+  padding: 10px;
+}
