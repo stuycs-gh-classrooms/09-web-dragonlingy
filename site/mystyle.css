@@ -1,3 +1,8 @@
+.divpad{
+  margin: auto;
+  padding: 10px;
+}
+
 .heading {
   text-align: center;
   font-size: 20px;
@@ -251,9 +256,4 @@ p {
 
 .column {
   height: 400px;
-}
-
-.divpad{
-  margin: auto;
-  padding: 10px;
 }
