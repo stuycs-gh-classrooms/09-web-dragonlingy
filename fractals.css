@@ -28,6 +28,10 @@ h3 {
     border-radius: 20px;
 }
 
+h2{
+  font-size:30px;
+}
+
 .koch{
   background-color: darkseagreen;
   margin: auto;
