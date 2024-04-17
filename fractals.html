@@ -16,20 +16,20 @@
       The basic koch curve looks like this:
     </p>
     <pre><code> draw_koch(t, 4, 50)</code></pre>
-    <img src = "koch.png">
+    <img src = "fractalpics/koch.png">
     <p>
       My koch curve has the following modifications (assuming that the inputs are the ones given below):
     </p>
-    <li>
-      <ul>If run with a depth greater than 1, every four depth 1 lines of the curve will be in the color order red, green, blue, green before repeating</ul>
-      <ul>Before each line, the turtle will leave a stamp, reminiscent of a "light" (like on a Christmas bush)</ul>
-      <ul>For every depth after depth 2, the turtle will also leave yellow stamps at the red/blue stamps rotating left & right 20 degrees, and then more stamps with a left & right rotation of the previous angle + 30 degrees for each corresponding depth.
+    <ul>
+      <li>If run with a depth greater than 1, every four depth 1 lines of the curve will be in the color order red, green, blue, green before repeating</li>
+      <li>Before each line, the turtle will leave a stamp, reminiscent of a "light" (like on a Christmas bush)</li>
+      <li>For every depth after depth 2, the turtle will also leave yellow stamps at the red/blue stamps rotating left & right 20 degrees, and then more stamps with a left & right rotation of the previous angle + 30 degrees for each corresponding depth.
       <br> For example, if it is depth 4, the turtle will first leave a red stamp, rotate 20 degrees to the right, leave a yellow stamp, then rotate back to its original position, then rotate 20 degrees to the left, leave another yellow stamp, and rotate back to its original position. Then, the turtle will rotate right 50 degrees, leave a yellow stamp, etc. The depth 4 koch curve should have 4 yellow stamps for each red/blue stamp.
-      <br> These stamps are reminiscent of the glow that the "lights" give off </ul>
-      <ul>The width of the green lines drawn is doubled for each depth. For example, for depth 2 it would be width = 1, for depth 3 it would be width = 2, for depth 4 it would be width = 8, etc.</ul>
-    </li>
+      <br> These stamps are reminiscent of the glow that the "lights" give off </li>
+      <li>The width of the green lines drawn is doubled for each depth. For example, for depth 2 it would be width = 1, for depth 3 it would be width = 2, for depth 4 it would be width = 8, etc.</li>
+    </ul>
     <pre><code> draw_modkoch(t, 4, 50, 1, 0)</code></pre>
-    <img src = "mkoch.png">
+    <img src = "fractalpics/mkoch.png">
     <pre><code>
     def draw_modkoch(t, depth, length, width, lights):
       if(depth > 1):
@@ -88,17 +88,18 @@
       The basic sierpinski triangle looks like this:
     </p>
     <pre><code> draw_sierpinski(t, 4, 500)</code></pre>
-    <img src = "sierpinski.png">
+    <img src = "fractalpics/sierpinski.png">
     <p>
       My sierpinski triangle has the following modifications (assuming that the inputs are the ones given below):
     </p>
-    <li>
-      <ul>For every depth 1 line drawn/every line that composes the triangle, there is a 1/5 or 20% chance that the line will "not be drawn" (the turtle will draw a white line so it isn't visible)</ul>
-      <ul>For every depth, a random value between 0-99 is divided by 255 (to convert to floating points for the rgb values) is added to the parameters redc, greenc, and bluec. These parameters are then subtracted from 1 and used as the turtle's corresponding rgb values. (If any accumulative sum [redc, greenc, bluec] becomes greater than 1, it will be reset to 0 to avoid errors). <br> Thus, the colors used to draw the sierpinski triangles generally become darker as depth increases</ul>
-      <ul>Note: if depth is inputted as 1 and the original redc, greenc, bluec colors are inputted as 0, the triangle will be white. </ul>
-    </li>
+    <ul>
+      <li>For every depth 1 line drawn/every line that composes the triangle, there is a 1/5 or 20% chance that the line will "not be drawn" (the turtle will draw a white line so it isn't visible)</li>
+      <li>For every depth, a random value between 0-99 is divided by 255 (to convert to floating points for the rgb values) is added to the parameters redc, greenc, and bluec. These parameters are then subtracted from 1 and used as the turtle's corresponding rgb values. (If any accumulative sum [redc, greenc, bluec] becomes greater than 1, it will be reset to 0 to avoid errors).
+        <br> Thus, the colors used to draw the sierpinski triangles generally become darker as depth increases</li>
+      <li>Note: if depth is inputted as 1 and the original redc, greenc, bluec colors are inputted as 0, the triangle will be white. </li>
+    </ul>
     <pre><code> draw_modsierpinski(t, 4, 500, 0, 0, 0)</code></pre>
-    <img src = "msierpinski.png">
+    <img src = "fractalpics/msierpinski.png">
     <pre><code>
     def draw_modsierpinski(t, depth, length, redc, greenc, bluec):
         t.color(1 - redc, 1 - greenc, 1 - bluec)
@@ -136,17 +137,17 @@
       The basic tree looks like this:
     </p>
     <pre><code> tree(t, 6, 50, 30)</code></pre>
-    <img src = "tree.png">
+    <img src = "fractalpics/tree.png">
     <p>
       My tree has the following modifications (assuming that the inputs are the ones given below):
     </p>
-    <li>
-      <ul>For each depth, before the first branch is drawn, an amount is added to the rotation of the angle. The amount was originally given as 0 (according to inputs). There is a 1/3 chance the amount will increase by 10 and a 2/3 chance it will decrease by 5. That amount is added to the angle rotated by the turtle when drawing branches. Changes to the ammount are accumulative</ul>
-      <ul>For each depth, before the first and second branches are drawn, there is a 1/3 chance the turtle will become red and 2/3 it will become green. The first branch "roll" determines both the changes to amount as well as the color of the turtle. </ul>
-      <ul>For depth 1, the turtle will be randomly set to a width between 1 and 10 before drawing. </ul>
-    </li>
+    <ul>
+      <li>For each depth, before the first branch is drawn, an amount is added to the rotation of the angle. The amount was originally given as 0 (according to inputs). There is a 1/3 chance the amount will increase by 10 and a 2/3 chance it will decrease by 5. That amount is added to the angle rotated by the turtle when drawing branches. Changes to the ammount are accumulative.</li>
+      <li>For each depth, before the first and second branches are drawn, there is a 1/3 chance the turtle will become red and 2/3 it will become green. The first branch "roll" determines both the changes to amount as well as the color of the turtle. </li>
+      <li>For depth 1, the turtle will be randomly set to a width between 1 and 10 before drawing. </li>
+    </ul>
     <pre><code> modtree(t, 6, 50, 30, 0)</code></pre>
-    <img src = "mtree.png">
+    <img src = "fractalpics/mtree.png">
     <pre><code>
     def modtree(t, depth, length, angle, amount):
       if(depth > 1):
