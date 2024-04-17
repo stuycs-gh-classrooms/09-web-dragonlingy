@@ -16,7 +16,7 @@ h1 {
 
 h3 {
     text-align: center;
-    display: inline-flex;
+    display: flex;
     padding: 10px;
     margin: auto;
     background-color: goldenrod;
