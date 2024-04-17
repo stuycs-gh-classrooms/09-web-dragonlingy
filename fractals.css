@@ -36,6 +36,9 @@ h3 {
   overflow: auto;
 }
 
+pre{
+  font-size: 10px;
+}
 img {
   height: 30%;
   width: 30%;
