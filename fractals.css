@@ -31,7 +31,23 @@ h3 {
 
 
 .koch{
+  background-color: mintcream;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  overflow: auto;
+}
+
+.sierpinski{
   background-color: darkseagreen;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  overflow: auto;
+}
+
+.tree{
+  background-color: darkolivegreen;
   margin: auto;
   padding: 10px;
   border-radius: 20px;
