@@ -35,55 +35,55 @@
     <pre><code> draw_modkoch(t, 4, 50, 1, 0)</code></pre>
     <img src = "fractalpics/mkoch.png">
     <pre><code>
-    def draw_modkoch(t, depth, length, width, lights):
-      if(depth > 1):
-          i = 0
-          angle = 20
-          t.color("red")
-          t.width(1)
-          t.stamp()
-          while(i < lights):
-              t.rt(angle)
-              t.color("yellow")
-              t.stamp()
-              t.lt(angle)
-              t.lt(angle)
-              t.stamp()
-              t.rt(angle)
-              i += 1
-              angle += 10
-          t.color("red")
-          draw_modkoch(t, depth-1, length, width*2, lights+1)
-          t.lt(60)
-          t.color("green")
-          t.stamp()
-          t.width(width)
-          draw_modkoch(t, depth-1, length, width*2, lights+1)
-          t.rt(120)
-          i = 0
-          angle = 20
-          t.color("blue")
-          t.width(1)
-          t.stamp()
-          while(i < lights):
-              t.rt(angle)
-              t.color("yellow")
-              t.stamp()
-              t.lt(angle)
-              t.lt(angle)
-              t.stamp()
-              t.rt(angle)
-              i += 1
-              angle += 30
-          t.color("blue")
-          draw_modkoch(t, depth-1, length, width*2, lights+1)
-          t.lt(60)
-          t.color("green")
-          t.stamp()
-          t.width(width)
-          draw_modkoch(t, depth-1, length, width*2, lights+1)
-      elif(depth == 1):
-          t.fd(length)
+  def draw_modkoch(t, depth, length, width, lights):
+    if(depth > 1):
+        i = 0
+        angle = 20
+        t.color("red")
+        t.width(1)
+        t.stamp()
+        while(i < lights):
+            t.rt(angle)
+            t.color("yellow")
+            t.stamp()
+            t.lt(angle)
+            t.lt(angle)
+            t.stamp()
+            t.rt(angle)
+            i += 1
+            angle += 10
+        t.color("red")
+        draw_modkoch(t, depth-1, length, width*2, lights+1)
+        t.lt(60)
+        t.color("green")
+        t.stamp()
+        t.width(width)
+        draw_modkoch(t, depth-1, length, width*2, lights+1)
+        t.rt(120)
+        i = 0
+        angle = 20
+        t.color("blue")
+        t.width(1)
+        t.stamp()
+        while(i < lights):
+            t.rt(angle)
+            t.color("yellow")
+            t.stamp()
+            t.lt(angle)
+            t.lt(angle)
+            t.stamp()
+            t.rt(angle)
+            i += 1
+            angle += 30
+        t.color("blue")
+        draw_modkoch(t, depth-1, length, width*2, lights+1)
+        t.lt(60)
+        t.color("green")
+        t.stamp()
+        t.width(width)
+        draw_modkoch(t, depth-1, length, width*2, lights+1)
+    elif(depth == 1):
+        t.fd(length)
     </code></pre>
   </div>
 
