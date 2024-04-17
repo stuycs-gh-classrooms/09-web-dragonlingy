@@ -6,11 +6,20 @@
 
 h1 {
     text-align: center;
-    align-items: center;
     display: inline-flex;
     padding: 10px;
     margin: auto;
     background-color: darkred;
+    color: floralwhite;
+    border-radius: 20px;
+}
+
+h3 {
+    text-align: center;
+    display: inline-flex;
+    padding: 10px;
+    margin: auto;
+    background-color: goldenrod;
     color: floralwhite;
     border-radius: 20px;
 }
