@@ -1,0 +1,8 @@
+h1 {
+    text-align: center;
+    display: inline-flex;
+    padding: 10px;
+    background-color: darkred;
+    text-color: floralwhite;
+    border-radius: 20px;
+}
