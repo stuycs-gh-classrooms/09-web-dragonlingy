@@ -2,7 +2,8 @@ h1 {
     text-align: center;
     display: inline-flex;
     padding: 10px;
+    margin: auto;
     background-color: darkred;
-    text-color: floralwhite;
+    color: floralwhite;
     border-radius: 20px;
 }
