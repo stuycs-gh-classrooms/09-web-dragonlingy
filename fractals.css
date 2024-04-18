@@ -57,8 +57,21 @@ h3 {
 pre{
   font-size: 15px;
 }
+
 img {
   height: 40%;
   width: 40%;
   text-align: center;
+}
+
+.redcl{
+  font-color: red;
+}
+
+.greencl{
+  font-color: green;
+}
+
+.blue{
+  font-color: blue;
 }
