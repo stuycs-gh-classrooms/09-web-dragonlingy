@@ -279,7 +279,7 @@ if (len(data) != 0):
     for i in finbio[4].split(' '):
         body += i
         body += '<br>'
-    body += 'Do you like this character?</p>'
+    body += '</p>'
     body += '<br><a href="questionnaire.py">Try Again</a>'
     html = make_html('Form Result', body)
     print(html)
