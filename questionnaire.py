@@ -145,7 +145,7 @@ def makeprofile(listinfo):
     info.append(listinfo[2])
     bio = listinfo[3] + listinfo[4]
     info.append(bio)
-    info.append(listinfo[5])
+   # info.append(listinfo[5])
     return info
 dm = []
 for l in male:
@@ -153,7 +153,7 @@ for l in male:
 df = []
 for l in female:
     df.append(splitionary(l, "+", 6))
-#print(dm)
+
 #print(female)
 #print(colorpicker("ISTJ"))
 #print(all_questions(questions)[0])
@@ -231,7 +231,7 @@ if (len(data) != 0):
             tempchr = list(j.keys())[0]
             templist = []
             finbio = []
-            if(j[tempchr][0] == mbti):
+            if(j[tempchr][0] == mbti and j[tempchr] != []):
                 templist += list(tempchr)
                 templist += j[tempchr][1:]
                 finbio = makeprofile(templist)
@@ -240,7 +240,7 @@ if (len(data) != 0):
             tempchr = list(j.keys())[0]
             templist = []
             finbio = []
-            if(j[tempchr][0] == mbti):
+            if(j[tempchr][0] == mbti and j[tempchr] != []):
                 templist += list(tempchr)
                 templist += j[tempchr][1:]
                 finbio = makeprofile(templist)
@@ -250,7 +250,7 @@ if (len(data) != 0):
                 tempchr = list(j.keys())[0]
                 templist = []
                 finbio = []
-                if(j[tempchr][0] == mbti):
+                if(j[tempchr][0] == mbti and j[tempchr] != []):
                     templist += list(tempchr)
                     templist += j[tempchr][1:]
                     finbio = makeprofile(templist)
@@ -259,7 +259,7 @@ if (len(data) != 0):
                 tempchr = list(j.keys())[0]
                 templist = []
                 finbio = []
-                if(j[tempchr][0] == mbti):
+                if(j[tempchr][0] == mbti and j[tempchr] != []):
                     templist += list(tempchr)
                     templist += j[tempchr][1:]
                     finbio = makeprofile(templist)
@@ -279,7 +279,7 @@ if (len(data) != 0):
     for i in finbio[4].split(' '):
         body += i
         body += '<br>'
-    body += '</p>'
+    body += 'Do you like this character?</p>'
     body += '<br><a href="questionnaire.py">Try Again</a>'
     html = make_html('Form Result', body)
     print(html)
